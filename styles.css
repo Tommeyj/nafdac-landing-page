@@ -1,0 +1,96 @@
+
+html{
+    background: #FFFFFF;
+    /* width: vw; */
+    box-sizing: content-box;
+}
+
+body {
+    margin: 20px auto;
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 100px 40px;
+gap: 40px;
+isolation: isolate;
+position: relative;
+max-width: 412px;
+max-height: 917px;
+background: url("./assets/images/bg-img.png"), linear-gradient(0deg, rgba(22, 22, 22, 0.8), rgba(22, 22, 22, 0.8)), #FFFFFF;
+}
+
+
+/* I am Druglord. Your NAFDAC online asssistant. How may i be of help today? I am happy to be of help */
+h1 {
+    width: 319px;
+    height: 292px;
+    font-family: "Kumbh Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 50px;
+    color: #ffffff;
+  }
+
+
+/* h1 p {
+    padding: 5px;
+} */
+
+
+/* Rectangle 3 */
+.div1{
+width: 334px;
+height: 210px;
+background: rgba(22, 22, 22, 0.7);
+border-radius: 30px 0px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+z-index: 1;
+}
+
+button{
+
+position: absolute;
+width: 294px;
+height: 58px;
+left: 61px;
+top: 550px;
+background: #61CE70;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+
+/* Inside auto layout */
+/* flex: none;
+order: 2;
+flex-grow: 0;
+z-index: 2; */
+
+/* Start a new conversation */
+font-family: 'Kumbh Sans';
+font-style: normal;
+/* font-weight: 400; */
+font-size: 20px;
+line-height: 22px;
+color: #FFFFFF;
+display: flex;
+flex-direction: row;
+}
+
+button span {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    
+}
+
+button p{
+    position: absolute;
+    left: 25px;
+    bottom: -3px;
+}
+
